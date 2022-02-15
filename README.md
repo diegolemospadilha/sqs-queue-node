@@ -1,11 +1,11 @@
-# Creating QUEUES in AWS (SQS) using Node.js
+## Creating QUEUES in AWS (SQS) using Node.js
 
-# Stacks
+## :rocket: Technologies
 - [Nodejs](https://nodejs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [SQS (AWS)](https://aws.amazon.com/pt/sqs/)
 
-# 💻 Installation
+## 💻 Installation
  ```shell
 cd "directory of your choice"
 git clone https://github.com/diegolemospadilha/CursoSpringBoot-Ionic-MC.git
@@ -16,9 +16,9 @@ After install the dependencies (using yarn)
 yarn install
 ```
 
-Create a SQS Queue in AWS. After created create a .env file and add the url in the QUEUE_URL variable.
+Create a SQS Queue in AWS. After create a .env file and add the url in the QUEUE_URL variable (see the file .env.example).
 
-In sequence, run this command to compile de project.
+In sequence, run this command to compile project.
 ```shell
 yarn tsc
 ```
