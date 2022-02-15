@@ -11,7 +11,7 @@ cd "directory of your choice"
 git clone git@github.com:diegolemospadilha/sqs-queue-node.git
 ```
 
-After install the dependencies (using yarn)
+After install the dependencies (using yarn).
 ```shell
 yarn install
 ```
@@ -27,23 +27,23 @@ The project will be compiled into dist directory.
 
 ## Structure of project
 
- - src/send.ts: File with example to send data to queue.
- - src/read.ts: File with example to read data from queue.
- - src/delete.ts: File with example to consumer and delete message from queue.
+ - src/send.ts: File with example to send data from the queue.
+ - src/read.ts: File with example to read data from the queue.
+ - src/delete.ts: File with example to consumer and delete message from the queue.
 
 ## Running of examples
 
-* Sending data from queue.
+* Sending messages from the queue.
+```shell
+node dist/send.js
+```
+
+* Reading messages from the queue.
 ```shell
 node dist/read.js
 ```
 
-* Reading data from queue.
+* Deleting messages from the queue.
 ```shell
-node dist/read.js
-```
-
-* Deleting data from queue.
-```shell
-yarn tsc
+node dist/delete.js
 ```
