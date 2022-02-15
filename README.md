@@ -8,7 +8,7 @@
 ## 💻 Installation
  ```shell
 cd "directory of your choice"
-git clone https://github.com/diegolemospadilha/CursoSpringBoot-Ionic-MC.git
+git clone git@github.com:diegolemospadilha/sqs-queue-node.git
 ```
 
 After install the dependencies (using yarn)
